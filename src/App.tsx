@@ -33,12 +33,12 @@ const features = [
 
 function App() {
   return (
-    <section className="py-15 min-h-screen bg-[hsl(0_0%_98%)] p-10">
-      <div className="mx-auto max-w-xl  text-center">
-        <h2 className="font- mb-5 text-3xl font-extralight  leading-[3rem] text-heading xl:text-4xl xl:leading-[3rem]">
+    <section className="py-15 min-h-screen bg-[hsl(0_0%_98%)] p-10 px-5  xl:p-10">
+      <div className="mx-auto max-w-xl text-center">
+        <h2 className="mb-5 text-3xl font-extralight  leading-[3rem] text-heading xl:text-4xl xl:leading-[3rem]">
           Reliable, efficient delivery
           <br />
-          <span className="font-bold ">Powered by Technology</span>
+          <span className="font-bold">Powered by Technology</span>
         </h2>
         <p className="mb-10 leading-relaxed text-content">
           Our Artificial Intelligence powered tools use millions of project data
