@@ -33,7 +33,7 @@ const features = [
 
 function App() {
   return (
-    <section className="py-15 h-screen bg-[hsl(0_0%_98%)] p-10">
+    <section className="py-15 min-h-screen bg-[hsl(0_0%_98%)] p-10">
       <div className="mx-auto max-w-xl  text-center">
         <h2 className="mb-5 text-3xl font-light  leading-[3rem] text-heading xl:text-4xl xl:leading-[3rem]">
           Reliable, efficient delivery
@@ -46,7 +46,7 @@ function App() {
         </p>
       </div>
       <div className="flex items-center justify-center">
-        <div className="mx-auto mt-10 grid grid-cols-1 gap-10 xl:grid-cols-3 xl:grid-rows-4">
+        <div className="mx-auto mt-5 grid grid-cols-1 gap-10 xl:grid-cols-3 xl:grid-rows-4">
           {features.map((feature) => (
             <FeatureCard key={feature.title} {...feature} />
           ))}

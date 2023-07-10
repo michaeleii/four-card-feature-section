@@ -3,7 +3,7 @@ const variants: {
 } = {
   cyan: "border-t-cyan-500",
   red: "border-t-red-500",
-  orange: "border-t-orange-500",
+  orange: "border-t-amber-500",
   blue: "border-t-blue-500",
 };
 
@@ -24,7 +24,7 @@ function FeatureCard({
     <div
       className={`border-t-4 ${
         variants[color]
-      } row-span-2 max-w-sm rounded-xl bg-white p-8 drop-shadow-md xl:first:row-start-2 xl:last:col-start-3 xl:last:row-start-2 ${
+      } row-span-2 max-w-sm rounded-xl bg-white p-8 drop-shadow-xl xl:first:row-start-2 xl:last:col-start-3 xl:last:row-start-2 ${
         middle ? "xl:col-start-2" : ""
       }`}
     >
