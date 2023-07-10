@@ -24,7 +24,7 @@ function FeatureCard({
     <div
       className={`border-t-4 ${
         variants[color]
-      } row-span-2 max-w-sm rounded-xl bg-white p-8 drop-shadow-xl xl:first:row-start-2 xl:last:col-start-3 xl:last:row-start-2 ${
+      } row-span-2 max-w-sm rounded-b-lg bg-white p-8 drop-shadow-lg xl:first:row-start-2 xl:last:col-start-3 xl:last:row-start-2 ${
         middle ? "xl:col-start-2" : ""
       }`}
     >
