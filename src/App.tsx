@@ -35,7 +35,7 @@ function App() {
   return (
     <section className="py-15 min-h-screen bg-[hsl(0_0%_98%)] p-10">
       <div className="mx-auto max-w-xl  text-center">
-        <h2 className="mb-5 text-3xl font-light  leading-[3rem] text-heading xl:text-4xl xl:leading-[3rem]">
+        <h2 className="font- mb-5 text-3xl font-extralight  leading-[3rem] text-heading xl:text-4xl xl:leading-[3rem]">
           Reliable, efficient delivery
           <br />
           <span className="font-bold ">Powered by Technology</span>

@@ -28,9 +28,7 @@ function FeatureCard({
         middle ? "xl:col-start-2" : ""
       }`}
     >
-      <h2 className="mb-3 text-xl font-bold text-heading xl:text-2xl">
-        {title}
-      </h2>
+      <h2 className="mb-3 text-2xl font-bold text-heading">{title}</h2>
       <p className="mb-10 leading-relaxed text-content">{description}</p>
       <img src={icon} alt={`${title} icon`} className="ml-auto" />
     </div>
